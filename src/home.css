@@ -1,0 +1,32 @@
+.home img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+.home .banner-container {
+  height: 75vh;
+  background-image: url("./banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .banner-container h1 {
+  font-size: 3rem;
+  color: #d8ab12;
+}
+
+.home .description-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff869e;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  font-size: 1.5rem;
+}
