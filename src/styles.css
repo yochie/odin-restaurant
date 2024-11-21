@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'ostrich_sansmedium';
+  src: url('./fonts/ostrich-regular-webfont.woff2') format('woff2'),
+    url('./fonts/ostrich-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+  margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*Normalize end*/
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "ostrich_sansmedium";
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  padding: 0px 15px;
+  background-color: #d8ab12;
+}
+
+nav button {
+  padding: 15px;
+  border: none;
+  background-color: #ff869e;
+}
+
+#content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-container {
+  height: 75vh;
+  background-image: url("./banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container h1 {
+  font-size: 3rem;
+  color: #d8ab12;
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff869e;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  font-size: 1.5rem;
+}
