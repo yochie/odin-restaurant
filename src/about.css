@@ -1,0 +1,23 @@
+.about {
+    width: clamp(70vw, 500px, 100vw);
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 3rem;
+    background-color: var(--secondary-color);
+}
+
+.about h2 {
+    font-size: 2rem;
+    background-color: var(--primary-color);
+}
+
+.about p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+.about p.description {
+    text-align: justify;
+}
