@@ -1,7 +1,14 @@
 .menu {
+    width: clamp(70vw, 500px, 100vw);
     text-align: center;
 }
 
 .menu h1 {
     font-size: 3rem;
+    background-color: var(--secondary-color);
+}
+
+.menu h2 {
+    font-size: 2rem;
+    background-color: var(--primary-color);
 }
