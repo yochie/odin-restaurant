@@ -25,7 +25,7 @@ export default function () {
 
     contactTitle.textContent = "Contact information";
     contact.classList.add("contact-info")
-    contact.textContent = "999 Boulevard of Dreams, Montreal, Qc, Canada"
+    contact.textContent = "999 Boulevard of Dreams, FakeCity, FakeCountry"
     contactContainer.appendChild(contactTitle);
     contactContainer.appendChild(contact);
     aboutContainer.appendChild(contactContainer);
